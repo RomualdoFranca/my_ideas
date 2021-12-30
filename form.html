@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Form</title>
+        <style>
+            body{
+                background-color: #494949;
+                color: rgba(0, 255, 255, 0.637);
+                font-family: sans-serif;
+            }
+          
+            input{
+                background-color: #494949;
+                color: rgba(0, 255, 255, 0.637);
+                font-family: sans-serif;
+            }
+     
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Sign Up Form</h1>
+
+        <form method="get">
+
+            First Name: <br>
+            <input type="text" name="firstname"> <br><br>
+            Second Name: <br>
+            <input type="text" name="secondname"> <br><br>
+            Birthday:<br>
+            <input type="date" name="birthday"> <br><br>
+            
+            Gender:<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="others">Others<br><br>
+            
+            Interest:<br>
+            <input type="checkbox" name="android">Android<br>
+            <input type="checkbox" name="games">Games<br>
+            <input type="checkbox" name="tutorials">Tutorials<br><br>
+            
+            Email:<br>
+            <input type="email" required name="email"> <br><br>
+            Password<br>
+            <input type="password" minlength="5" name="password"><br><br>
+
+            <input type="submit" value="register">
+            <input type="reset" value="reset">
+
+       </form> 
+       <hr>
+
+      
+        
+    </body>
+
+</html>
