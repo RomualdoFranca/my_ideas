@@ -28,12 +28,13 @@ header {
 
 /* redefinindo o tamanho das divs dos logos */
 .logo-compesa {
-    height: 90px;
+    height: 95px;
+    width: 260px;
 }
 
 /* definindo o comprimento da div do menu */
 .menu {
-    width: 940px;
+    width: 920px;
     
 }
 
