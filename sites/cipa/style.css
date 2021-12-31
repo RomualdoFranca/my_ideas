@@ -4,15 +4,17 @@
 }
 /* *:nth-child(n) {background-color: #8a8a8a33;} */
 
+
 body {
     background-color: #f1f1f1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
 }
 
 header {
 
     background-color: white;
-    border:solid #0000ff;
+    border:solid #0000aa;
     border-width:50px 0px 0px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +28,7 @@ header {
 
 /* redefinindo o tamanho das divs dos logos */
 .logo-compesa {
-    height: 60px;
+    height: 90px;
 }
 
 /* definindo o comprimento da div do menu */
@@ -43,9 +45,12 @@ li {
     text-decoration: none; /* retirando o sublinhado*/
 }
 a:link {
-    color: rgb(0, 0, 255);
+    color: #0000aa;
 }
 a:visited {
-    color: blue;
+    color: #0000aa;
 }
-
+/* a:hover {
+    border: 2px solid blue;
+    border-width: 0px 0px 2px 0px;
+} */
