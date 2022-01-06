@@ -78,11 +78,9 @@ h2 {
     position: relative;
     margin-left: 0px;
     margin-right: auto;
-
-
 }
 
-.borda {
+.col__borda {
     border: 1px solid #ddd;
     background-image: url("/cipa/img_cipa/borda_compesa.png ") ;
     background-size: 50px; /* difinindo o tamanho da imagem do background*/
