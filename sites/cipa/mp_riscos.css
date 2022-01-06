@@ -72,12 +72,19 @@ h2 {
     font-weight:bold ;
 
 }
-.mp__risco {
+.col__mp-title{
+    border: 1px solid #ddd;
+    display: flex;
+    flex-flow: wrap;
+
+
+}
+.col__mp-title div{
     border: 1px solid #ddd;
     transform: rotate(270deg); /* rotacionando a imagem*/
-    position: relative;
+    /* position: relative;
     margin-left: 0px;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 .col__borda {
