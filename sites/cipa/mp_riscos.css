@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* *:nth-child(n) {background-color: #8a8a8a33;} */
+
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+header {
+
+    background-color: white;
+    border:solid #0000aa;
+    border-width:50px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ 
+}
+/* redefinindo o tamanho das divs dos logos */
+.logo-cipa {
+    height: 90px;
+}
+
+/* redefinindo o tamanho das divs dos logos */
+.logo-compesa {
+    height: 95px;
+    width: 260px;
+}
+
+/* definindo o comprimento da div do menu */
+.menu {
+    width: 920px;
+    
+}
+
+li {
+    padding: 0px 20px; /* espacamento entre os links*/
+    float: left; /* posicionando os links na horizontal*/
+    font-size: 18px;
+    list-style: none; /* retirando os pontos dos links*/
+    text-decoration: none; /* retirando o sublinhado*/
+}
+a:link {
+    color: #0000aa;
+}
+a:visited {
+    color: #0000aa;
+}
+/* a:hover {
+    border: 2px solid blue;
+    border-width: 0px 0px 2px 0px;
+} */
+main {
+    width: 960px;
+    border: 1px solid #ddd;
+    position: relative; /*alinhando o caralho da div ao centro*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
