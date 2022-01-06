@@ -2,7 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-/* *:nth-child(n) {background-color: #8a8a8a33;} */
+*:nth-child(n) {
+    background-color: #8a8a8a33;
+    border: 1px solid #ddd;
+
+}
 
 
 body {
@@ -50,4 +54,45 @@ a:link {
 }
 a:visited {
     color: #0000aa;
+}
+
+main {
+    width: 1200px;
+    /* height: 800px; */
+    margin-top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between; /*as duas div dentro do main foram posicionadas no cantos esquerdo e direito*/
+    background-color: #ffffff;
+}
+.col__l {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #cf9dcf; */
+}
+h2 {
+    width: 750px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline; /* sublinhado*/
+}
+.mp {
+    width: 900px;
+    height: 390px;
+    margin-left: 10px;
+    background-image: url("/cipa/img_cipa/clorador2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+
+.col__r-border{
+    width: 50px;
+    height: 500px;
+    background-image: url("/cipa/img_cipa/borda_compesa.png");
+    background-size: 50px;
 }
