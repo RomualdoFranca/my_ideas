@@ -59,35 +59,32 @@ main {
     width: 960px;
     border: 1px solid #ddd;
     position: relative; /*alinhando o caralho da div ao centro*/
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /*alinhando o caralho da div ao centro*/
+    margin-right: auto;/*alinhando o caralho da div ao centro*/
+    margin-top: 20px;
     background-color: #ffffff;
     display: flex;
     
 }
+h2 {
+    border: 1px solid #ddd;
+    margin: 10px;
+    font-weight:bold ;
+
+}
 .mp__risco {
     border: 1px solid #ddd;
+    transform: rotate(270deg); /* rotacionando a imagem*/
+    position: relative;
+    margin-left: 0px;
+    margin-right: auto;
 
 
 }
-.leg {
-    border: 1px solid #ddd;
-    width: 200px;
-    height: 250px;
-    padding-top: 10px;
-}
-ul {
-    margin-top: 10px;
 
-}
-/* li {
-    padding: 2px 0px;
-    font-size: 13px;
-    font-style: italic;
-} */
 .borda {
     border: 1px solid #ddd;
     background-image: url("/cipa/img_cipa/borda_compesa.png ") ;
-    background-size: 50px;
+    background-size: 50px; /* difinindo o tamanho da imagem do background*/
     width: 50px;
 }
